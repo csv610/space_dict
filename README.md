@@ -22,23 +22,23 @@ A comprehensive technical reference covering **1,499 entries** across five domai
 ### Build the PDF
 
 ```bash
-pdflatex main.tex
-makeglossaries main
-pdflatex main.tex
-pdflatex main.tex
+pdflatex space_dict.tex
+makeglossaries space_dict
+pdflatex space_dict.tex
+pdflatex space_dict.tex
 ```
 
 ### Single Pass (Quick Preview)
 
 ```bash
-pdflatex -interaction=nonstopmode main.tex
+pdflatex -interaction=nonstopmode space_dict.tex
 ```
 
 ## Project Structure
 
 ```
 SpaceDict/
-├── main.tex                              # Master document
+├── space_dict.tex                        # Master document
 ├── main.pdf                              # Compiled output (201 pages)
 ├── chapters/
 │   ├── chapter1_aerodynamics.tex         # 390 entries
