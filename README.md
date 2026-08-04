@@ -1,12 +1,12 @@
 # Air and Space Dictionary
 
-A comprehensive technical reference covering **1,499 entries** across five domains of aerospace science. Built with LaTeX using a two-column dictionary layout with color-coded categories and auto-generated index.
+A comprehensive technical reference covering **1,521 entries** across five domains of aerospace science. Built with LaTeX using a two-column dictionary layout with color-coded categories and auto-generated index.
 
 ## Contents
 
 | # | Chapter | Entries | Lines |
 |---|---------|---------|-------|
-| 1 | Aerodynamics | 390 | 430 |
+| 1 | Aerodynamics | 412 | 452 |
 | 2 | Aerospace | 261 | 569 |
 | 3 | Rocket and Missile | 286 | 573 |
 | 4 | Drones | 301 | 307 |
@@ -41,7 +41,7 @@ SpaceDict/
 ├── space_dict.tex                        # Master document
 ├── main.pdf                              # Compiled output (201 pages)
 ├── chapters/
-│   ├── chapter1_aerodynamics.tex         # 390 entries
+│   ├── chapter1_aerodynamics.tex         # 412 entries
 │   ├── chapter2_aerospace.tex            # 261 entries
 │   ├── chapter3_rocket_missile.tex       # 286 entries
 │   ├── chapter4_drones.tex               # 301 entries
